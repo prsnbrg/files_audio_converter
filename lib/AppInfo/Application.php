@@ -8,7 +8,5 @@ class Application extends App {
 	public function __construct(array $urlParams=[]){
 		parent::__construct('files_audio_converter', $urlParams);
 
-		$container = $this->getContainer();
-
 	}
 }
