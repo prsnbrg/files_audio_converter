@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info>
+    <id>files_audio_converter</id>
+    <name>Files Audio Converter</name>
+    <summary>This app allows the conversion of different audio formats directly from the file app.</summary>
+    <description>Convert audio files from one format to another directly from the web interface. 
+
+Requirements:
+ffmpeg</description>
+    <version>0.0.1</version>
+    <licence>AGPL-3.0</licence>
+    <category>multimedia</category>
+	<category>tools</category>
+    <author>Paul Rosenberg</author>
+    <website>https://github.com/prsnbrg/ownCloud-files_audio_converter</website>
+    <bugs>https://github.com/prsnbrg/ownCloud-files_audio_converter/issues</bugs>
+    <repository type="git">https://github.com/prsnbrg/ownCloud-files_audio_converter.git</repository>
+    <namespace>FilesAudioConverter</namespace>
+    <documentation>
+    	<admin>https://raw.githubusercontent.com/prsnbrg/ownCloud-files_audio_converter/master/README.md</admin>
+    </documentation>
+    <dependencies>
+        <command os="linux">ffmpeg</command>
+        <os>Linux</os>
+        <owncloud min-version="10" max-version="10"/>
+    </dependencies>
+</info>
