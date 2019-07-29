@@ -7,21 +7,22 @@
 
 Requirements:
 ffmpeg</description>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <licence>AGPL-3.0</licence>
     <category>multimedia</category>
 	<category>tools</category>
-    <author>Paul Rosenberg</author>
-    <website>https://github.com/prsnbrg/ownCloud-files_audio_converter</website>
-    <bugs>https://github.com/prsnbrg/ownCloud-files_audio_converter/issues</bugs>
-    <repository type="git">https://github.com/prsnbrg/ownCloud-files_audio_converter.git</repository>
+    <author mail="mail@paulrosenberg.de">Paul Rosenberg</author>
+    <website>https://github.com/prsnbrg/files_audio_converter</website>
+    <bugs>https://github.com/prsnbrg/files_audio_converter/issues</bugs>
+    <repository type="git">https://github.com/prsnbrg/files_audio_converter.git</repository>
     <namespace>FilesAudioConverter</namespace>
     <documentation>
-    	<admin>https://raw.githubusercontent.com/prsnbrg/ownCloud-files_audio_converter/master/README.md</admin>
+    	<admin>https://raw.githubusercontent.com/prsnbrg/files_audio_converter/master/README.md</admin>
     </documentation>
     <dependencies>
         <command os="linux">ffmpeg</command>
         <os>Linux</os>
         <owncloud min-version="10" max-version="10"/>
+        <nextcloud min-version="14" max-version="16" />
     </dependencies>
 </info>
